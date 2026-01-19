@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <title>PC Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>PC STORE</h1>
+    <p>Zgjidh komponentët e tu</p>
+    <div id="total">Totali Gjithësej: 0€</div>
+</header>
+
+<main class="shop">
+
+    <div class="product">
+        <div class="icon"></div>
+        <h3>Gaming PC</h3>
+        <span>1500€</span>
+        <div class="actions">
+            <button onclick="addPrice(1500)">+</button>
+            <button onclick="removePrice(1500)">-</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="icon"></div>
+        <h3>RTX 4060</h3>
+        <span>500€</span>
+        <div class="actions">
+            <button onclick="addPrice(500)">+</button>
+            <button onclick="removePrice(500)">-</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="icon"></div>
+        <h3>Monitor 144Hz</h3>
+        <span>350€</span>
+        <div class="actions">
+            <button onclick="addPrice(350)">+</button>
+            <button onclick="removePrice(350)">-</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="icon"></div>
+        <h3>Mechanical Keyboard</h3>
+        <span>120€</span>
+        <div class="actions">
+            <button onclick="addPrice(120)">+</button>
+            <button onclick="removePrice(120)">-</button>
+        </div>
+    </div>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
+
